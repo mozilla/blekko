@@ -1,0 +1,11 @@
+{
+    "name": "blekko",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "Edward Lee (Mardak)",
+    "version": "1",
+    "fullName": "Blekko",
+    "id": "blekko@mozilla.labs",
+    "description": "Blekko",
+    "dependencies": ["api-utils", "addon-kit"],
+    "main": "./main.js"	
+}
