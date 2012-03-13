@@ -1,11 +1,37 @@
 {
     "name": "blekko",
     "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
-    "author": "Edward Lee (Mardak)",
+    "author": "Edward Lee (Mardak), Max Zhilyaev",
     "version": "1",
     "fullName": "Blekko",
     "id": "blekko@mozilla.labs",
     "description": "Blekko",
     "dependencies": ["api-utils", "addon-kit"],
-    "main": "./main.js"	
+    "main": "./main.js"	 ,
+    "preferences": [
+		{
+        	"name": "blekko_ikon_url",
+        	"title": "blekko icon url",
+        	"type": "string",
+        	"value": "http://blekko.com/s/favicon.png"
+    	},
+		{
+        	"name": "blekko_suggest_url",
+        	"title": "blekko suggest url",
+        	"type": "string",
+        	"value": "http://blekko.com/ff-nav-suggest?q="
+    	},
+		{
+        	"name": "blekko_search_url",
+        	"title": "blekko search url",
+        	"type": "string",
+        	"value": "http://blekko.com/ws/?source=ffsuggest&q="
+    	},
+		{
+        	"name": "blekko_manifest_url",
+        	"title": "blekko manifest url",
+        	"type": "string",
+        	"value": "http://blekko.com/s/blekko.xml"
+    	}
+	]
 }
